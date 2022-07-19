@@ -1,13 +1,108 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #23252C;
+  font-family: Inter, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.app {
+  width: 380px;
+  background-color: #1A1B21;
+  margin: 40px auto;
+  border-style: inset;
+  border-width: 2px;
+  border-color: cadetblue;
+  border-radius: 19px;
+  color: white;
+  
+}
+
+ion-icon {
+  font-size: 30px;
+}
+
+.about,
+.footer,
+.info,
+.interests {
+  margin: 10px 20px 0px;
+  padding: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+#profile {
+  height: 210px;
+  margin: 10px auto;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.footer h1 {
+  color: black;
+}
+
+.footer>img {
+  height: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  margin: 4px 8px;
+}
+
+.info>h3,
+.info>h4 {
+  color: cadetblue;
+  margin-bottom: 14px;
+}
+
+.btn{
+  margin-bottom: 0;
+  
+  display: flex;
+}
+
+#btn1 {
+  background-color: crimson;
+  color: white;
+  border-color: crimson;
+  border-radius: 4px;
+  height: 35px;
+  width: 90px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0;
+  font-size: 16px;
+}
+#btn2 {
+  background-color:dodgerblue;
+  color: white;
+  border-color: dodgerblue;
+  border-radius: 4px;
+  height: 35px;
+  width: 120px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0;
+  font-size: 16px;
 }
